@@ -1,10 +1,4 @@
-<<<<<<< HEAD
-Flask
+flask
 pandas
 requests
-=======
-Flask
-pandas
-requests
->>>>>>> 2ae3c63df16d3de86243d24021de1e33c5986e2f
 gunicorn
