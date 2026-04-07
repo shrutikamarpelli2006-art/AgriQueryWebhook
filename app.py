@@ -118,4 +118,6 @@ def webhook():
     return jsonify({"fulfillmentText": "Your query is being processed..."})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    import os
+    port = int(os.environ.get("PORT", 3000))   # Render needs this
+    app.run(host="0.0.0.0", port=port)
